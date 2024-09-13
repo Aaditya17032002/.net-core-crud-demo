@@ -7,11 +7,11 @@ namespace Testing.Models
     {
         private static List<Student> students = new List<Student>()
         {
-            new() { StudentId = 101, Name = "James", Branch = "CSE", Section = "A", Gender = "Male" },
-            new() { StudentId = 102, Name = "Smith", Branch = "ETC", Section = "B", Gender = "Male" },
-            new() { StudentId = 103, Name = "David", Branch = "CSE", Section = "A", Gender = "Male" },
-            new() { StudentId = 104, Name = "Sara", Branch = "CSE", Section = "A", Gender = "Female" },
-            new() { StudentId = 105, Name = "Pam", Branch = "ETC", Section = "B", Gender = "Female" }
+            new() { StudentId = 101, Name = "Rohit Sharma", Branch = "CSE", Section = "A", Gender = "Male" },
+            new() { StudentId = 102, Name = "Virat Kohli", Branch = "ETC", Section = "B", Gender = "Male" },
+            new() { StudentId = 103, Name = "Smriti Mandana", Branch = "CSE", Section = "A", Gender = "Female" },
+            new() { StudentId = 104, Name = "Shubham Gill", Branch = "CSE", Section = "A", Gender = "Male" },
+            new() { StudentId = 105, Name = "Sara Tendulakar", Branch = "ETC", Section = "B", Gender = "Female" }
         };
 
         private List<Student> DataSource()
